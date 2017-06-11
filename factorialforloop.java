@@ -4,9 +4,14 @@ import java.util.*;
       int i,fact=1;
       Scanner sc=new Scanner(System.in);
       int number=sc.nextInt();  
-      for(i=1;i<=number;i++){    
-          fact=fact*i;    
-      }    
+         if(number=0)
+             System.out.println("1");
+         else
+         {
+         for(i=1;i<=number;i++){    
+           fact=fact*i;    
+             }   
+         }
       System.out.println("Factorial of "+number+" is: "+fact);    
      }  
     }  
