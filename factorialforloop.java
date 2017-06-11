@@ -1,5 +1,5 @@
 import java.util.*;
-    class factorial{  
+    class factorialforloop{  
      public static void main(String args[]){  
       int i,fact=1;
       Scanner sc=new Scanner(System.in);
